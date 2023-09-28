@@ -860,7 +860,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 6d61dad93d15536498e8c7061b9c59c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b88c9393913f4f247994cce868c15820, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3691,8 +3691,8 @@ Transform:
   m_GameObject: {fileID: 1876638760}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.268, y: -0.001, z: 0}
-  m_LocalScale: {x: 1.681818, y: 1.681818, z: 1.681818}
+  m_LocalPosition: {x: -0.046, y: -0.015, z: 0}
+  m_LocalScale: {x: 0.2883608, y: 0.2883608, z: 0.2883608}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1157369000}
@@ -3753,7 +3753,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 329d5387eb21cab4fb51850ea0611599, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1584ba09a73e72641939262b1ed30bf8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3798,6 +3798,7 @@ MonoBehaviour:
   speechText: {fileID: 499097379}
   actorNameText: {fileID: 493347144}
   typingSpeed: 0.05
+  typingSound: {fileID: 0}
 --- !u!4 &1944395096
 Transform:
   m_ObjectHideFlags: 0
