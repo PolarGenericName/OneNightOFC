@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Glitch Studio
   productName: One Night DEMO
-  defaultCursor: {fileID: 2800000, guid: ced821cc33e78e246a9fcdefd432d6b6, type: 3}
+  defaultCursor: {fileID: 2800000, guid: 0ae83e941e80a014d841535dd17deb48, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1

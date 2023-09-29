@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Dialogue : MonoBehaviour
 {
@@ -9,8 +10,8 @@ public class Dialogue : MonoBehaviour
     public string actorName;
     private bool isDialogActive = false;
     private bool canAdvanceText = false;
-    private float textAdvanceDelay = 0.5f; // Ajuste o tempo de atraso conforme necessário
-
+    private float textAdvanceDelay = 0.5f; // Ajuste o tempo de atraso conforme necessï¿½rio
+    
     public LayerMask playerLayer;
     public float radious;
 
@@ -23,9 +24,9 @@ public class Dialogue : MonoBehaviour
     }
     private IEnumerator EnableTextAdvance()
     {
-        // Aguarde o tempo de atraso antes de permitir o avanço do texto
+        // Aguarde o tempo de atraso antes de permitir o avanï¿½o do texto
         yield return new WaitForSeconds(textAdvanceDelay);
-        canAdvanceText = true; // Permita o avanço do texto
+        canAdvanceText = true; // Permita o avanï¿½o do texto
     }
 
     public void Update()
@@ -41,21 +42,24 @@ public class Dialogue : MonoBehaviour
             }
             else
             {
-                // Se o diálogo já estiver ativo e não estiver avançando para a próxima frase,
-                // avance para a próxima frase
+                // Se o diï¿½logo jï¿½ estiver ativo e nï¿½o estiver avanï¿½ando para a prï¿½xima frase,
+                // avance para a prï¿½xima frase
                 if (!isAdvancingText)
                 {
                     dc.NextSentence();
+                    
                 }
+                
             }
         }
 
         if (Input.GetKeyUp(KeyCode.Space) && isDialogActive)
         {
-            // Fecha completamente o diálogo ao pressionar a tecla de espaço
+            // Fecha completamente o diï¿½logo ao pressionar a tecla de espaï¿½o
             isDialogActive = false;
             dc.CloseDialogue();
         }
+            
     }
 
     private void FixedUpdate()
