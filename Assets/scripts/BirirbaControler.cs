@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class BirirbaControler : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject Pedra;
+    public Transform spawPedra;
     void Start()
     {
         
@@ -12,6 +13,20 @@ public class BirirbaControler : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+       Aim();
+       Shoot();
+    }
+
+    void Shoot()
+    {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(Pedra, spawPedra.position, transform.rotation);
+        }
+    }
+
+    void Aim()
     {
         Vector3 mousePos = Input.mousePosition;
         Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.position);
