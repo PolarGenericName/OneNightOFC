@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class BirirbaControler : MonoBehaviour
 {
+    SpriteRenderer sprite;
+
     public GameObject Pedra;
     public Transform spawPedra;
     void Start()
     {
-        
+        sprite = GetComponent<SpriteRenderer>();   
     }
 
     // Update is called once per frame
@@ -35,5 +37,7 @@ public class BirirbaControler : MonoBehaviour
 
         float angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
+
+        sprite.flipY = (mousePos.x < screenPoint.x);
     }
 }
