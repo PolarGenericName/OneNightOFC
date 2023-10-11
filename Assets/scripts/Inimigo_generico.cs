@@ -15,7 +15,7 @@ public class Inimigo_generico : MonoBehaviour
     private float distanciaMinima;
 
     [SerializeField]
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D rigidbody;
 
     [SerializeField]
     private SpriteRenderer spriteRenderer;
@@ -29,12 +29,35 @@ public class Inimigo_generico : MonoBehaviour
     {
         Gizmos.DrawWireSphere(this.transform.position , this.raioDeVisao);
     }
-    private void ProcurarJoagadorl()
+    private void ProcurarJoagador()
     {
-        Physics2D.OverlapCircle(this.transform.position, this.raioDeVisao);
+       Collider2D colisor = Physics2D.OverlapCircle(this.transform.position, this.raioDeVisao);
+
+        if (colisor != null)
+        {
+            this.alvo = colisor.transform;
+        }
+        else
+        {
+            this.alvo = null;
+        }
     }
 
     void Update()
+    {
+        ProcurarJoagador();
+        
+        if(this.alvo != null)
+        {
+            Mover();
+        }
+        else
+        {
+            PararDeMover();
+        }
+        
+    }
+    private void Mover()
     {
         Vector2 posicaoAlvo = this.alvo.position;
         Vector2 posicaoAtual = this.transform.position;
@@ -47,21 +70,27 @@ public class Inimigo_generico : MonoBehaviour
             Vector2 direcao = posicaoAlvo - posicaoAtual;
             direcao = direcao.normalized;
 
-            this.rigidbody2D.velocity = (this.velocidadeMovimento * direcao);
+            this.rigidbody.velocity = (this.velocidadeMovimento * direcao);
             //flip de sprite
-            if (this.rigidbody2D.velocity.x > 0)
+            if (this.rigidbody.velocity.x > 0)
             {
                 this.spriteRenderer.flipX = false;
             }
-            else if (this.rigidbody2D.velocity.x < 0)
+            else if (this.rigidbody.velocity.x < 0)
             {
                 this.spriteRenderer.flipX = true;
             }
         }
         else
         {
-            this.rigidbody2D.velocity = Vector2.zero;
+            PararDeMover();
         }
-   
-}
+
+
+    }
+    private void PararDeMover()
+    {
+        this.rigidbody.velocity = Vector2.zero;
+        //add dps script de animaçao
+    }
 }
