@@ -6,11 +6,12 @@ TagManager:
   tags:
   - ParedeInvi
   - Mira
+  - pedra
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - pedra
   - Water
   - UI
   - Player

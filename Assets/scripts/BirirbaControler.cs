@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; 
+using TMPro;
 
 public class BirirbaControler : MonoBehaviour
 {
@@ -8,6 +10,15 @@ public class BirirbaControler : MonoBehaviour
 
     public GameObject Pedra;
     public Transform spawPedra;
+    public TextMeshProUGUI bulletCountText;
+    public Image bulletIcon;
+    public int maxBullets = 10;
+    public int currentBullets = 10;
+
+    public float reloadTime = 2.0f;
+    private float reloadTimer = 0.0f;
+
+    
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();   
@@ -18,13 +29,41 @@ public class BirirbaControler : MonoBehaviour
     {
        Aim();
        Shoot();
+
+       
+        if (reloadTimer > 0)
+        {
+            reloadTimer -= Time.deltaTime;
+        }
+
+        if (Input.GetKeyDown(KeyCode.R) && reloadTimer <= 0)
+        {
+            Reload();
+            reloadTimer = reloadTime;
+        }
     }
 
     void Shoot()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && currentBullets > 0)
         {
             Instantiate(Pedra, spawPedra.position, transform.rotation);
+            currentBullets--;
+            UpdateUI(); // Atualize a UI após disparar
+        }
+    }
+     void UpdateUI()
+    {
+        bulletCountText.text = + currentBullets + "|" + maxBullets;
+    }
+
+    void Reload()
+    {
+        if (currentBullets < maxBullets)
+        {
+            int bulletsToReload = maxBullets - currentBullets;
+            currentBullets += bulletsToReload;
+            UpdateUI();
         }
     }
 

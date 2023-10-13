@@ -2270,6 +2270,8 @@ MonoBehaviour:
   speechTxt:
   - "Ah n\xE3o..."
   - Deveria ter feito esse dever de casa!!
+  - "Mesmo nas f\xE9rias esses professores me enchem de atividades"
+  - "Num posso nem curtir minhas f\xE9rias"
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
@@ -3964,6 +3966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614902285}
   - component: {fileID: 1614902286}
+  - component: {fileID: 1614902287}
   m_Layer: 0
   m_Name: quadro_limitaccaoo (1)
   m_TagString: Untagged
@@ -4038,6 +4041,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1614902287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614902284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 0}
+  speechTxt:
+  - Ah como gosto de pinturas surrealistas
+  - "Tantos mist\xE9rios tantos significados"
+  - "Me pergunto o que se passa na cabe\xE7a do autor"
+  actorName: Toinho
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  radious: 0.82
 --- !u!1 &1635590117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4143,7 +4168,7 @@ RectTransform:
   m_GameObject: {fileID: 1689917368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.420386, y: 6.084897, z: 6.084897}
+  m_LocalScale: {x: 8.946735, y: 5.224371, z: 5.224371}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 323639857}
@@ -4536,7 +4561,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
   speechTxt:
-  - 
+  - "Ah! sim minha cole\xE7\xE3o de quadrinhos"
+  - "Quando era crian\xE7a eu sempre trazia varios pra casa da a v\xF3"
+  - Mas nunca imaginei que ela fosse guardar todos
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
