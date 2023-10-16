@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CorredorBN.unity
     guid: 55a0700a2c9c3b94e9d3f5f97aa37af0
+  - enabled: 1
+    path: Assets/Scenes/TitleClickl.unity
+    guid: ba3afeb736fa6344bbc9604be24df36f
   m_configObjects: {}
