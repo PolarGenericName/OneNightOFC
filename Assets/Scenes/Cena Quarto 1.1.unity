@@ -408,8 +408,8 @@ MonoBehaviour:
   speechTxt:
   - Essa estante estava aqui?
   - "Cad\xEA a porta?"
-  - Parece que os quadrinhos foram clonados
-  - "Isso t\xE1 esquisito pra diacho"
+  - Parece que os quadrinhos foram clonados.
+  - "Isso t\xE1 esquisito pra diacho."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
@@ -1035,9 +1035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
-  - "U\xE9 esse quadro n\xE3o \xE9 meu"
+  - "Esse quadro n\xE3o \xE9 meu."
   - Isso era pra ser um homem azeitona?
   actorName: Toinho
   playerLayer:
@@ -2234,14 +2234,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
-  - COMO ASSIMM!!
-  - "Minha li\xE7\xE3o de casa foi feita"
-  - Mas nem toquei nela
+  - COMO ASSIM!!
+  - "Minha li\xE7\xE3o de casa foi feita."
+  - Mas nem toquei nela.
+  - "N\xE3o sei como mas, de qualquer forma, foi um livramento."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 1.06
+  radious: 0.82
 --- !u!1 &1293493659
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,14 +2426,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
-  - "U\xE9 esse quadro n\xE3o ficava na cabiceira?"
-  - Rapaz, saio por um minuto e meu quarto fica todo zoado
-  - "T\xF4 meio cabreiro"
+  - "U\xE9? Esse quadro n\xE3o ficava na cabiceira?"
+  - Rapaz, saio por um minuto e meu quarto fica todo zoado.
+  - "T\xF4 meio cabreiro."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 0.86
+  radious: 0.71
 --- !u!1 &1479608346
 GameObject:
   m_ObjectHideFlags: 0

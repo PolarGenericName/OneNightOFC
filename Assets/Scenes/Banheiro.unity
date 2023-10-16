@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 108682375}
   - component: {fileID: 108682374}
   - component: {fileID: 108682373}
+  - component: {fileID: 108682376}
   m_Layer: 0
   m_Name: Cestoderoupa
   m_TagString: Untagged
@@ -253,6 +254,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &108682376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108682372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  speechTxt:
+  - "Vazio, toda a roupa t\xE1 na m\xE1quina."
+  actorName: Toinho
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  radious: 0.47
 --- !u!1 &135357690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,7 +1174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
-  - Sem vontade de ir ao banheiro agora...
+  - Sem vontade agora...
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
@@ -1442,7 +1463,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 881a788ffb4d6ed4db30883ecc6cd59f, type: 3}
+    m_Font: {fileID: 12800000, guid: dd5c0dbdb11972b4d987a750b40ad639, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
@@ -1881,11 +1902,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
   speechTxt:
-  - "Oxi? a maquina t\xE1 centrifugando"
-  - "N\xE3o acho que a vov\xF3 lavaria roupa a essas hora"
-  - E num consigo desligar
-  - "Quando amanhecer ela desliga, s\xF3 ela sabe mecher nesse tro\xE7o"
-  - "Meu trabalho \xE9 s\xF3 levar a roupa pra fora e estender"
+  - "Oxi? A m\xE1quina t\xE1 centrifugando."
+  - "N\xE3o acho que a vov\xF3 lavaria roupa a essas horas e num consigo desligar."
+  - "Quando amanhecer, ela desliga. S\xF3 ela sabe mexer nesse tro\xE7o."
+  - "Meu trabalho \xE9 s\xF3 levar a roupa pra fora e estender."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
@@ -2667,11 +2687,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
-  - Ok, ok, preciso ficar calmo
-  - "Certeza que meus av\xF3s sairam pra ver algum vizinho"
-  - Mesmo essas hora da noite
-  - "Mas isso n\xE3o explica meu quarto ter ficado diferente"
-  - "Isso me t\xE1 muito estranho"
+  - Ok, ok, preciso ficar calmo.
+  - "Certeza de que meus av\xF3s sa\xEDram pra ver algum vizinho. Mesmo a essas hora
+    da noite."
+  - "Isso t\xE1 muito estranho."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2

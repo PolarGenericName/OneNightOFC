@@ -7,6 +7,7 @@ TagManager:
   - ParedeInvi
   - Mira
   - pedra
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Player
   - Parede
   - transition
-  - 
+  - Bala Viwer
   - 
   - 
   - 

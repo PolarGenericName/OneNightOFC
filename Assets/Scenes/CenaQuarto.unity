@@ -359,7 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
   speechTxt:
-  - "Nossa, consegui dormir de um jeito que n\xE3o baguncei a cama"
+  - "Nossa, consegui dormir de um jeito que n\xE3o baguncei a cama."
   - Perfeito!!
   actorName: Toinho
   playerLayer:
@@ -465,9 +465,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
-  - "O quadro do Dom Sebasti\xE3o"
-  - quando menor tinha medo pra diacho dele
-  - "T\xE9 doido j\xE1 se viu uma pessoa virar boi "
+  - "O quadro do Dom Sebasti\xE3o."
+  - Quando menor, tinha medo pra diacho.
+  - "T\xE9 doido? J\xE1 se viu uma pessoa virar boi?"
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
@@ -1076,9 +1076,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
   speechTxt:
-  - Oxi? esqueci de desligar a TV
-  - "Ah o Revolta na Atenas, esse jogo \xE9 bom pra peste"
-  - Preciso zerar esse jogo quando tiver tempo livre
+  - Oxi? Me esqueci de desligar a TV.
+  - "Ah, o Revolta na Atenas, esse jogo \xE9 bom pra peste"
+  - Preciso zerar esse jogo quando tiver tempo livre.
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
@@ -2268,15 +2268,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
-  - "Ah n\xE3o..."
+  - "Ah! N\xE3o!"
   - Deveria ter feito esse dever de casa!!
-  - "Mesmo nas f\xE9rias esses professores me enchem de atividades"
-  - "Num posso nem curtir minhas f\xE9rias"
+  - "Mesmo nas f\xE9rias esses professores me enchem de atividades.  "
+  - "Num posso nem curtir minhas f\xE9rias."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 1.2
+  radious: 0.83
 --- !u!1 &1146953089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,6 +2371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169217646}
   - component: {fileID: 1169217647}
+  - component: {fileID: 1169217648}
   m_Layer: 0
   m_Name: Espelho
   m_TagString: Untagged
@@ -2445,6 +2446,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1169217648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169217645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  speechTxt:
+  - "Eita, o cabra t\xE1 bunito pra peste."
+  - "Mas n\xE3o t\xF4 usando nada de mais, s\xF3 o b\xE1sico."
+  - Pergunto o que as pessoas acham de mim.
+  - "Ser\xE1 que realmente vou me dar bem aqui?"
+  - "Tipo, sempre venho visitar meus av\xF3s, mas nunca falei com outra pessoa."
+  - "S\xF3 eu e meu velho videogame."
+  - Eu ainda espero fazer alguns amigos por aqui.
+  - Na verdade, nem onde moro tenho tantos amigos.
+  - "S\xF3 meu velho amigo Danilo. Tenho um pouco de medo de interagir."
+  - "Sinto sempre que n\xE3o sou bem-vindo."
+  - "Mas s\xF3 depende de mim fazer algum esfo\xE7o."
+  actorName: Toinho
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  radious: 0.67
 --- !u!1 &1265204119
 GameObject:
   m_ObjectHideFlags: 0
@@ -4053,11 +4084,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
   speechTxt:
-  - Ah como gosto de pinturas surrealistas
-  - "Tantos mist\xE9rios tantos significados"
-  - "Me pergunto o que se passa na cabe\xE7a do autor"
+  - Ah como gosto de pinturas surrealistas.
+  - "Tantos mist\xE9rios, tantos significados."
+  - "Pergunto o que se passa na cabe\xE7a do autor."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
@@ -4561,14 +4592,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
   speechTxt:
-  - "Ah! sim minha cole\xE7\xE3o de quadrinhos"
-  - "Quando era crian\xE7a eu sempre trazia varios pra casa da a v\xF3"
-  - Mas nunca imaginei que ela fosse guardar todos
+  - "Ah!  Minha cole\xE7\xE3o de quadrinhos."
+  - "Quando era crian\xE7a, eu sempre trazia v\xE1rios pra casa da v\xF3."
+  - Mas nunca imaginei que ela fosse guardar todos.
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 0.96
+  radious: 0.63
 --- !u!1 &1944395094
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,8 +4970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
   speechTxt:
-  - "Estranho, n\xE3o lembro dessa porta"
-  - "e o mais esquesito \xE9 que ela n\xE3o abre"
+  - "Estranho, n\xE3o lembro me dessa porta."
+  - "E o mais esquesito \xE9 que ela n\xE3o abre."
   actorName: Toinho
   playerLayer:
     serializedVersion: 2
