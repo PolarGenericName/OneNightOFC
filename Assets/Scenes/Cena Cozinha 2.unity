@@ -2758,6 +2758,7 @@ MonoBehaviour:
   speechTxt:
   - ...
   actorName: "Buj\xE3o"
+  expressions: []
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2794,9 +2795,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000013113022, y: 0}
+  m_Offset: {x: -0.21298729, y: 0.00031601937}
   serializedVersion: 2
-  m_Radius: 0.7
+  m_Radius: 0.48701403
 --- !u!1 &1198647495
 GameObject:
   m_ObjectHideFlags: 0
@@ -5008,6 +5009,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d73386ca42d264788a9a5c853e1dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentIndex: 0
+  expressions: []
   dialogueObj: {fileID: 1198647495}
   profile: {fileID: 668930364}
   speechText: {fileID: 1283695344}

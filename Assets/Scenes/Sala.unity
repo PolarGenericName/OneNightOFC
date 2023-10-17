@@ -637,6 +637,13 @@ MonoBehaviour:
   - Mas vai entender...
   - "S\xF3 \xE9 divertido \xE1s vezes ver ele dan\xE7ando com a vov\xF3"
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1231,6 +1238,7 @@ MonoBehaviour:
   profile: {fileID: 0}
   speechTxt: []
   actorName: "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
+  expressions: []
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2809,6 +2817,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d73386ca42d264788a9a5c853e1dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentIndex: 0
+  expressions:
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
   dialogueObj: {fileID: 1142092823}
   profile: {fileID: 1386449643}
   speechText: {fileID: 1254182543}
