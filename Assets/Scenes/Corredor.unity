@@ -249,6 +249,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d73386ca42d264788a9a5c853e1dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentIndex: 0
+  expressions:
+  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  - {fileID: 21300000, guid: f8b6847cad561bc4cbd34e054eeeb9fa, type: 3}
   dialogueObj: {fileID: 1842233612}
   profile: {fileID: 829134878}
   speechText: {fileID: 2066615991}
@@ -371,6 +377,7 @@ MonoBehaviour:
   speechTxt:
   - Quadro "Santa Ceia"
   actorName: Quadro
+  expressions: []
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2504,6 +2511,7 @@ MonoBehaviour:
   - "Parece que meus av\xF3s n\xE3o est\xE3o no quarto."
   - Vou pra sala.
   actorName: Toinho
+  expressions: []
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2983,7 +2991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
   speechTxt:
   - "Esse telefone continua aqui? \xC9 a coisa mais antiga da casa e pensar que isso
     era artigo de luxo na \xE9poca"
@@ -2992,6 +3000,12 @@ MonoBehaviour:
   - .............
   - "Ningu\xE9m na linha..."
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: f8b6847cad561bc4cbd34e054eeeb9fa, type: 3}
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -3828,6 +3842,7 @@ MonoBehaviour:
   - Mas preciso esquecer isso.
   - "Vou aproveitar minhas f\xE9rias ao m\xE1ximo com eles."
   actorName: Toinho
+  expressions: []
   playerLayer:
     serializedVersion: 2
     m_Bits: 64

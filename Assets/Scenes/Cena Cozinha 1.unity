@@ -2700,7 +2700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
   speechTxt:
-  - "Vixe, a geladeira tem s\xF3 \xE1gua. Meu av\xF3 me disse que \xEDamos ao mercadinho
+  - "Vixe, a geladeira tem s\xF3 \xE1gua. Meu av\xF4 me disse que \xEDamos ao mercadinho
     do seu Silva."
   - Por hora, sem lache da madruga.
   - "Deveria ter deixado a minha av\xF3 colocar meu prato, "
