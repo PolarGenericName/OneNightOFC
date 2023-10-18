@@ -11,6 +11,8 @@ public class Enemycontroler : MonoBehaviour
     private bool isAttacking = false;
     float attackDistance = 1f;
 
+ 
+
     void Start()
     {
         playerGM = GameObject.FindGameObjectWithTag("Player");
@@ -67,5 +69,4 @@ public class Enemycontroler : MonoBehaviour
             Destroy (gameObject, 0.6f);
         }
     }
-    
 }
