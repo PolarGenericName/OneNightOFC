@@ -9,7 +9,7 @@ public class Enemycontroler : MonoBehaviour
     Animator anim;
     bool isAlive = true;
     private bool isAttacking = false;
-    float attackDistance = 1.0f;
+    float attackDistance = 1f;
 
     void Start()
     {

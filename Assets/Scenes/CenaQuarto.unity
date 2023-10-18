@@ -357,13 +357,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  profile: {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
   speechTxt:
   - "Nossa, consegui dormir de um jeito que n\xE3o baguncei a cama."
   - Perfeito!!
   actorName: Toinho
   expressions:
-  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -465,17 +466,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
   - "O quadro do Dom Sebasti\xE3o."
   - Quando menor, tinha medo pra diacho.
   - "T\xE9 doido? J\xE1 se viu uma pessoa virar boi?"
   actorName: Toinho
-  expressions: []
+  expressions:
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 1
+  radious: 0.76
 --- !u!1 &264172638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,13 +1079,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
   speechTxt:
   - Oxi? Me esqueci de desligar a TV.
   - "Ah, o Revolta na Atenas, esse jogo \xE9 bom pra peste."
   - Preciso zerar esse jogo quando tiver tempo livre.
   actorName: Toinho
-  expressions: []
+  expressions:
+  - {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
+  - {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
+  - {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2270,14 +2275,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   speechTxt:
   - "Ah! N\xE3o!"
   - Deveria ter feito esse dever de casa!!
   - "Mesmo nas f\xE9rias esses professores me enchem de atividades.  "
   - "Num posso nem curtir minhas f\xE9rias."
   actorName: Toinho
-  expressions: []
+  expressions:
+  - {fileID: 21300000, guid: 8b31349bb0e546047bdd889198019305, type: 3}
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2463,11 +2472,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  profile: {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
   speechTxt:
   - "Eita, o cabra t\xE1 bunito pra peste."
   - "Mas n\xE3o t\xF4 usando nada de mais, s\xF3 o b\xE1sico."
-  - Pergunto o que as pessoas acham de mim.
+  - Me pergunto o que as pessoas acham de mim.
   - "Ser\xE1 que realmente vou me dar bem aqui?"
   - "Tipo, sempre venho visitar meus av\xF3s, mas nunca falei com outra pessoa."
   - "S\xF3 eu e meu velho videogame."
@@ -2478,7 +2487,9 @@ MonoBehaviour:
   - "Mas s\xF3 depende de mim fazer algum esfo\xE7o."
   actorName: Toinho
   expressions:
-  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  - {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
   - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   playerLayer:
     serializedVersion: 2
@@ -4092,13 +4103,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
   speechTxt:
-  - Ah como gosto de pinturas surrealistas.
+  - Ah, como gosto de pinturas surrealistas.
   - "Tantos mist\xE9rios, tantos significados."
-  - "Pergunto o que se passa na cabe\xE7a do autor."
+  - "Me pergunto o que se passa na cabe\xE7a do autor."
   actorName: Toinho
-  expressions: []
+  expressions:
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
+  - {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -4599,169 +4613,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
   speechTxt:
   - "Ah!  Minha cole\xE7\xE3o de quadrinhos."
   - "Quando era crian\xE7a, eu sempre trazia v\xE1rios pra casa da v\xF3."
   - Mas nunca imaginei que ela fosse guardar todos.
   actorName: Toinho
-  expressions: []
+  expressions:
+  - {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: 8b31349bb0e546047bdd889198019305, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
   radious: 0.63
---- !u!1 &1944395094
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1944395096}
-  - component: {fileID: 1944395095}
-  - component: {fileID: 1944395097}
-  m_Layer: 0
-  m_Name: DialogueControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1944395095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944395094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33d73386ca42d264788a9a5c853e1dcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentIndex: 0
-  expressions:
-  - {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
-  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
-  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
-  dialogueObj: {fileID: 1635590117}
-  profile: {fileID: 362560877}
-  speechText: {fileID: 499097379}
-  actorNameText: {fileID: 493347144}
-  typingSpeed: 0.06
-  typingSound: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
---- !u!4 &1944395096
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944395094}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 314.84335, y: 79.8305, z: -5.582734}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1944395097
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944395094}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1972043537
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,16 +4848,176 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
   speechTxt:
-  - "Estranho, n\xE3o lembro me dessa porta."
+  - "Estranho, n\xE3o me lembro dessa porta."
   - "E o mais esquesito \xE9 que ela n\xE3o abre."
   actorName: Toinho
-  expressions: []
+  expressions:
+  - {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
   radious: 0.95
+--- !u!1 &2081899896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081899899}
+  - component: {fileID: 2081899898}
+  - component: {fileID: 2081899897}
+  m_Layer: 0
+  m_Name: DialogueControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &2081899897
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081899896}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &2081899898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081899896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d73386ca42d264788a9a5c853e1dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentIndex: 0
+  expressions:
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  - {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: 0fe94fdf66d32cb42985c376bc5fb26b, type: 3}
+  - {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: 8b31349bb0e546047bdd889198019305, type: 3}
+  - {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
+  dialogueObj: {fileID: 1635590117}
+  profile: {fileID: 362560877}
+  speechText: {fileID: 499097379}
+  actorNameText: {fileID: 493347144}
+  typingSpeed: 0.06
+  typingSound: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
+--- !u!4 &2081899899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081899896}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 314.84335, y: 79.8305, z: -5.582734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4602628770536599452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5176,8 +5201,8 @@ SceneRoots:
   - {fileID: 845716357}
   - {fileID: 925429587}
   - {fileID: 885384297}
-  - {fileID: 1944395096}
   - {fileID: 4602628770536599452}
   - {fileID: 473016941}
   - {fileID: 1794597349}
   - {fileID: 59094888}
+  - {fileID: 2081899899}

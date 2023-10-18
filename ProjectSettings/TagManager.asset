@@ -8,6 +8,8 @@ TagManager:
   - Mira
   - pedra
   - Enemy
+  - ObjectDoor
+  - ObjectKey
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Parede
   - transition
   - Bala Viwer
-  - 
+  - Enemy
   - 
   - 
   - 

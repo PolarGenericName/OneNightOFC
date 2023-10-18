@@ -351,8 +351,13 @@ MonoBehaviour:
   - "Ainda bem que o g\xE1s acabou ontem."
   - "Minha av\xF3 t\xE1 fazendo cum\xEA s\xF3 no fugareiro."
   - "Se n\xE3o fosse por isso, ia acontecer uma trag\xE9dia aqui."
-  - "Pergunto quem faria isso. Certeza que n\xE3o foi um deles dois."
+  - "Quem faria isso? Certeza que n\xE3o foi um deles."
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -618,6 +623,165 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124883063}
   m_CullTransparentMesh: 1
+--- !u!1 &309856135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309856138}
+  - component: {fileID: 309856137}
+  - component: {fileID: 309856136}
+  m_Layer: 0
+  m_Name: DialogueControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &309856136
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309856135}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &309856137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309856135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d73386ca42d264788a9a5c853e1dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentIndex: 0
+  expressions:
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  - {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: 0fe94fdf66d32cb42985c376bc5fb26b, type: 3}
+  - {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
+  - {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: 8b31349bb0e546047bdd889198019305, type: 3}
+  - {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
+  - {fileID: 21300000, guid: d0f578b060a44c04dafb021e43e20eb7, type: 3}
+  dialogueObj: {fileID: 861673533}
+  profile: {fileID: 639839269}
+  speechText: {fileID: 124883065}
+  actorNameText: {fileID: 35055462}
+  typingSpeed: 0.06
+  typingSound: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
+--- !u!4 &309856138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309856135}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 314.84335, y: 79.8305, z: -5.582734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &362560875
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,14 +1135,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  profile: {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
   speechTxt:
-  - "Ah! Esse \xE1rmario \xE9 onde minha v\xF3 guarda a sua cole\xE7\xE3o de lou\xE7as
+  - "Ah! Esse arm\xE1rio \xE9 onde minha v\xF3 guarda a sua cole\xE7\xE3o de lou\xE7as
     caras."
   - "Ela fica bolada quando o vov\xF4 pega os pratos guardados pra almo\xE7ar."
   - "Ela tem tantos e n\xE3o usa nenhum."
   - "S\xF3 no final de ano que ela libera usar as ta\xE7as."
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: e50b49b014ff77240952f3ccac3fa360, type: 3}
+  - {fileID: 21300000, guid: 065009e9a4c115b40b119f4106623d5e, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1232,7 +1401,7 @@ Transform:
   m_GameObject: {fileID: 487263750}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.189, y: 1.894, z: 0}
+  m_LocalPosition: {x: 2.923, y: 3.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1250,7 +1419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  profile: {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
   speechTxt:
   - "Parece que a vov\xF3 continua tomando caf\xE9 no meio da madruga."
   - "Num julgo ela, amo o caf\xE9 que o vov\xF4 faz."
@@ -1262,10 +1431,19 @@ MonoBehaviour:
   - "Isso ia deixar a vov\xF3 triste. "
   - "Acho bem massa eles se darem bem juntos, s\xE3o t\xE3o felizes!"
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 0.21
+  radious: 0.91
 --- !u!1 &493347142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1881,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: b6b9b295f07a1a34d801551e9ed16d6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1724,7 +1902,7 @@ Transform:
   m_GameObject: {fileID: 537755313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.006, y: 3.6, z: 0}
+  m_LocalPosition: {x: -0.433, y: 1.467, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2502,7 +2680,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: cfbe5f5fe9ba32d40b8ec8b3f5840b16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2523,7 +2701,7 @@ Transform:
   m_GameObject: {fileID: 1013963733}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.021, y: 1.748, z: 0}
+  m_LocalPosition: {x: -1.571, y: 1.708, z: 0}
   m_LocalScale: {x: 0.52855194, y: 0.52855194, z: 0.52855194}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2541,7 +2719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  profile: {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
   speechTxt:
   - "Farinha no caf\xE9 \xE9 bom pra peste!"
   - "Mas n\xE3o t\xF4 a fim agora."
@@ -2551,10 +2729,16 @@ MonoBehaviour:
     com uma cumbuca."
   - "Ai, ai, esse meu av\xF3 tem umas hist\xF3rias de cair o queixo."
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: bbbd94a218e22d142aa5f6f0224d42f4, type: 3}
+  - {fileID: 21300000, guid: 001d2c2a5022d6a4fadca06f7a3c82f8, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 0.43
+  radious: 0.4
 --- !u!1 &1026992852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,15 +2882,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: 3ab96bee790495d4cb41f0a282500c0e, type: 3}
+  profile: {fileID: 21300000, guid: 8b31349bb0e546047bdd889198019305, type: 3}
   speechTxt:
   - "Vixe, a geladeira tem s\xF3 \xE1gua. Meu av\xF4 me disse que \xEDamos ao mercadinho
     do seu Silva."
-  - Por hora, sem lache da madruga.
+  - Por ora, sem lache da madruga.
   - "Deveria ter deixado a minha av\xF3 colocar meu prato, "
-  - ela com certeza ia lotar ele, e eu dormeria sem ficar com uma pequena fome na
+  - ela com certeza ia lotar ele, e eu dormiria sem ficar com uma pequena fome na
     madruga.
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: 8b31349bb0e546047bdd889198019305, type: 3}
+  - {fileID: 21300000, guid: d0f578b060a44c04dafb021e43e20eb7, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
+  - {fileID: 21300000, guid: b835200c9ee7de246a212f86411f8aa6, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2722,8 +2911,6 @@ GameObject:
   - component: {fileID: 1060653448}
   - component: {fileID: 1060653449}
   - component: {fileID: 1060653450}
-  - component: {fileID: 1060653451}
-  - component: {fileID: 1060653452}
   m_Layer: 0
   m_Name: bujao
   m_TagString: Untagged
@@ -2833,61 +3020,6 @@ CircleCollider2D:
   m_Offset: {x: -0.19034861, y: 0.08167498}
   serializedVersion: 2
   m_Radius: 0.50427747
---- !u!114 &1060653451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060653447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: 7cd8dfe4b9b83f54a9fd3cdae8957a65, type: 3}
-  speechTxt:
-  - ...
-  actorName: "Buj\xE3o"
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  radious: 0.45
---- !u!58 &1060653452
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060653447}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0000013113022, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.7
 --- !u!1 &1216923803
 GameObject:
   m_ObjectHideFlags: 0
@@ -4633,153 +4765,6 @@ Transform:
   - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1606381085
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1606381087}
-  - component: {fileID: 1606381086}
-  - component: {fileID: 1606381088}
-  m_Layer: 0
-  m_Name: DialogueControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1606381086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606381085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33d73386ca42d264788a9a5c853e1dcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueObj: {fileID: 861673533}
-  profile: {fileID: 639839269}
-  speechText: {fileID: 124883065}
-  actorNameText: {fileID: 35055462}
-  typingSpeed: 0.05
-  typingSound: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
---- !u!4 &1606381087
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606381085}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 314.84335, y: 79.8305, z: -5.582734}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1606381088
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606381085}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b52c0ded91fa3d148870f7665bd056b0, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1635590117
 GameObject:
   m_ObjectHideFlags: 0
@@ -5193,7 +5178,7 @@ Transform:
   m_GameObject: {fileID: 1892930436}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.278, y: -0.391, z: -0.040065207}
+  m_LocalPosition: {x: -6.209, y: -0.369, z: -0.040065207}
   m_LocalScale: {x: 0.62207896, y: 0.62207896, z: 0.62207896}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5239,7 +5224,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: bcc3e5efe14589840b89f90ba14b821e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5263,14 +5248,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62648f76bce71b4e88c8fd774b5974f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: ce038561cb0cee84db6471ad9d1460b0, type: 3}
+  profile: {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
   speechTxt:
   - "Gra\xE7as a essa belezinha temos caf\xE9 quente o dia inteiro."
   actorName: Toinho
+  expressions:
+  - {fileID: 21300000, guid: c054613aea3a77043b18a359b7f71c92, type: 3}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  radious: 0.44
+  radious: 0.4
 --- !u!1 &2023057436
 GameObject:
   m_ObjectHideFlags: 0
@@ -5481,6 +5468,6 @@ SceneRoots:
   - {fileID: 441915929}
   - {fileID: 1847327779}
   - {fileID: 384141715}
-  - {fileID: 1606381087}
   - {fileID: 2023057437}
   - {fileID: 1532038292}
+  - {fileID: 309856138}
